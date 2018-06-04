@@ -7,10 +7,10 @@ using MapMagic;
 [System.Serializable]
 [GeneratorMenu(
     menu = "Vertexherder",
-    name = "EdgeGenerator",
+    name = "EdgeDetector",
     disengageable = true,
     helpLink = "http://myGeneratorHelp")]
-public class EdgeGenerator : Generator
+public class EdgeDetector : Generator
 {
     //input and output vars
     public Input input = new Input("Input", InoutType.Map, mandatory: true);

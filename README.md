@@ -1,2 +1,8 @@
 # Map_Magic_Generators
-Some generators and tools for the Map Magic asset.
+**Ajaxlex's** generators for **Denis Pahunov's** _excellent _[Map Magic](https://assetstore.unity.com/packages/tools/terrain/mapmagic-world-generator-56762)
+
+### [EdgeDetector](https://github.com/ajaxlex/Map_Magic_Generators/wiki/EdgeDetector)
+Detects edges using a Sobel kernel.  Larger kernels will return wider areas.
+
+### [HeightFilter](https://github.com/ajaxlex/Map_Magic_Generators/wiki/HeightFilter)
+Returns the areas of the input that are between min and max height settings.
